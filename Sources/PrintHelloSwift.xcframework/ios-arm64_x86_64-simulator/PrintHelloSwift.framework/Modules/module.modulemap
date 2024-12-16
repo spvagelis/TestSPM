@@ -1,6 +1,0 @@
-framework module PrintHelloSwift {
-  umbrella header "PrintHelloSwift.h"
-  export *
-
-  module * { export * }
-}
