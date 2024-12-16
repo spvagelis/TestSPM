@@ -21,8 +21,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "print",
-            "printedName": "print()",
+            "name": "sayHello",
+            "printedName": "sayHello()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -32,8 +32,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15PrintHelloSwiftAAC5printSSyF",
-            "mangledName": "$s15PrintHelloSwiftAAC5printSSyF",
+            "usr": "s:15PrintHelloSwiftAAC03sayB0SSyF",
+            "mangledName": "$s15PrintHelloSwiftAAC03sayB0SSyF",
             "moduleName": "PrintHelloSwift",
             "isOpen": true,
             "declAttributes": [
