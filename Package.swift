@@ -25,6 +25,8 @@ let package = Package(
             dependencies: ["TestSPM"]),
         .binaryTarget(
             name: "PrintHelloSwift",
-            path: "./Sources/PrintHelloSwift.xcframework")
+            url: "https://github.com/spvagelis/PrintHelloSwift/releases/download/1.0.0/PrintHelloSwift.xcframework.zip",
+            checksum: "757b2c94c37b347bd258dcc89a2fefba96bb671ffadf788b6e8a7b8f6318668f"
+        )
     ]
 )
