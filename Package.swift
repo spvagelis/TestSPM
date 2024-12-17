@@ -21,7 +21,8 @@ let package = Package(
         .target(
             name: "TestSPM",
             dependencies: [
-            .target(name: "PrintHelloSwift")
+            .target(name: "PrintHelloSwift"),
+            "CocoaLumberjack"
         ]),
         .testTarget(
             name: "TestSPMTests",
